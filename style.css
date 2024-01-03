@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+body, html{
+    text-align: center;
+    margin: 0;
+    background-color: rgb(101, 152, 247);
+    color: aliceblue;    
+    display:inline-block;
+    font-family: 'Roboto', sans-serif;
+
+}
+.inbox input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {  /* retirar as setas de selecte do input="number"*/
+    -webkit-appearance: none;
+    margin: 0;
+}
+.inbox_text{
+    padding: 10px 20px;
+    border-radius: 5rem;
+    border-style: outset;
+    margin: 0;
+}
+.title_inbox{
+    margin-bottom: 7px;
+}
+#button_send{
+    margin: 25px 20px;
+    padding: 10px 20px;
+    border-radius:5rem;
+    background-color: rgb(52, 92, 165);
+    border-color: aliceblue;
+    color: aliceblue;
+    border-style: groove;
+    border-width: 2px;
+    font-family: 'Roboto', sans-serif;
+}
+#button_reset{
+    margin: 25px 20px;
+    padding: 10px 20px;
+    border-radius:5rem;
+    background-color: rgb(52, 92, 165);
+    border-color: aliceblue;
+    color: aliceblue;
+    border-style: groove;
+    border-width: 2px;
+    font-family: 'Roboto', sans-serif;
+}
+#new_button_send{
+    margin: 25px 20px;
+    padding: 10px 20px;
+    border-radius:5rem;
+    background-color: rgb(52, 92, 165);
+    border-color: aliceblue;
+    color: aliceblue;
+    border-style: groove;
+    border-width: 2px;
+    font-family: 'Roboto', sans-serif;
+}
+#title{
+    max-width: 300px;
+    border-color: aliceblue;
+    border-style: solid;
+    padding: 10px;
+    margin-top: 30%;
+}
+#grade{
+    padding: 20px;
+    max-width: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 1rem;
+    border-color: aliceblue;
+    background-color: rgb(42, 81, 153);
+    margin-top: 20%;
+}
+.invalid_value{
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 5px;
+    color: red;
+}
+.buttons{
+    display:flex;
+}

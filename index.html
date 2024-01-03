@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas alunos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Student Average</h1>
+    <div id="grade">
+        <div id="grade_first">
+            <p class="title_inbox">First Note</p>
+            <input class="inbox_text" id="first_inbox" type="number" placeholder="Enter the grade" >
+            <p class="invalid_value" id="invalid_value_first"></p>
+        </div>
+        <div id="grade_second">
+            <p class="title_inbox">Second Note</p>
+            <input class="inbox_text" id="second_inbox" type="number" placeholder="Enter the grade" >
+            <p class="invalid_value" id="invalid_value_second"></p>
+        </div>
+        <div id="grade_third">
+        </div>
+        <div class="buttons">
+            <div id="buttons_send">
+                <button class="buttons" id="button_send" onmouseover="ChangeColorButtonSend()" onmouseout="ReturnOriginColorButtonSend()" onclick="CalculateAverageNotes()" >Send</button>
+            </div>
+                <button class="buttons" id="button_reset" onmousemove="ChangeColorButtonReset()" onmouseout="ReturnOriginColorButtonReset()"  onclick="CleanReset()" >Reset</button>
+        </div>
+        <p id="average"></p>
+    </div>  
+    <script src="js/script.js" ></script>   
+    <script src="js/events.js" ></script> 
+</body>
+</html>
